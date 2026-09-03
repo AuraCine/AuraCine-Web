@@ -1,0 +1,103 @@
+# AuraCine-Web
+
+Objetivos - cinema
+Escolher, anotar e compartilhar ideia do que queremos com todos.
+Escolhido: vai ser um site de cinema comum
+Nome do Cinema: AuraCine
+Objetivo: Desenvolver uma plataforma web moderna para a reserva e venda de ingressos de cinema online, permitindo que os usuários escolham filmes, horários e assentos em tempo real, otimizando o atendimento das salas de exibição.
+
+Diferencial: Pode ser simplesmente bem organizado, bonito e funcionar corretamente. 
+
+Referências - cinema
+1. Tela Inicial e Catálogo
+Banner Principal: Um carrossel no topo mostrando os grandes lançamentos com o pôster em alta resolução de fundo, título, sinopse curta.]
+Categorias em Grade/Carrossel:
+"Em Cartaz"
+"Em Breve"
+"Mais Vendidos"
+Cards de Filmes: Imagem da capa, classificação indicativa (ex: 12, 16, L) e nota de avaliação (estrelas). 
+
+2. Fluxo principal do site
+Uma referência de fluxo:
+Página inicial → escolher filme → ver horários → escolher assentos → confirmar compra → ingresso
+Páginas do AuraCine
+
+1. Home
+Logo AuraCine
+Menu
+Filmes em cartaz
+Filmes em breve
+Banner de destaque
+Botão "Comprar ingresso"
+2. Filmes
+Pôster
+Nome
+Gênero
+Classificação
+Duração
+"Ver horários"
+3. Detalhes do filme
+Pôster
+Sinopse
+Trailer
+Informações do filme
+Datas disponíveis
+Horários disponíveis
+4. Escolha de assentos
+Mapa da sala
+Assentos disponíveis
+Assentos ocupados
+Assentos selecionados
+Valor total
+5. Resumo da compra
+Filme
+Data
+Horário
+Sala
+Assentos
+Quantidade
+Valor
+6. Pagamento
+Dados básicos do comprador
+Forma de pagamento
+Resumo
+Botão "Finalizar compra"
+7. Confirmação
+"Compra realizada!"
+Número da reserva
+Filme
+Horário
+Sala
+Assentos
+QR Code fictício
+
+3. Tela de Seleção de Assentos
+Curvatura da Tela: No topo, uma linha curva brilhante para simular a tela do cinema (com o texto "TELA").
+Grade de Poltronas: Um mapa visual com letras nas fileiras (A, B, C...) e números nas colunas (1, 2, 3...).
+
+4. Tela de Checkout
+Card Lateral de Resumo:
+Imagem do pôster do filme escolhido.
+Data, horário e número da sala.
+Assentos escolhidos (ex: B4, B5).
+Detalhamento de valores (2x Meia-Entrada, Taxa de serviço).
+Comprovante: Exibição de um QR Code simulado que representa o ingresso digital.
+
+Requisitos - cinema
+Módulo 1: Filmes e Conteúdo
+RF01 - Consultar Catálogo de Filmes: O sistema deve permitir visualizar filmes divididos por Em Cartaz, Em Breve e Programação.
+RF02 - Exibir Detalhes do Filme: O sistema deve exibir a ficha técnica do filme contendo: título, descrição/sinopse, trailer, duração, gênero, direção, elenco e classificação indicativa.
+RF03 - Galeria de Mídia: O sistema deve exibir imagens e pôsters promocionais dos filmes.
+RF04 - Avaliações de Filmes: O sistema deve permitir que os usuários consultem e deixem notas/avaliações sobre os filmes.
+Módulo 2: Locais, Salas e Horários
+RF05 - Selecionar Localidade: O sistema deve permitir que o usuário escolha a cidade e o shopping onde deseja assistir à sessão.
+RF06 - Exibir Informações da Sessão: O sistema deve informar a sala, o tipo de sala (Salas Especiais como 3D, IMAX, VIP) e os horários/dias de exibição disponíveis.
+RF07 - Selecionar Lugares: O sistema deve exibir o mapa da sala e permitir que o usuário selecione os assentos/lugares desejados.
+Módulo 3: Vendas, Ingressos e Serviços
+RF08 - Seleção de Ingressos e Promoções: O sistema deve permitir escolher os tipos de ingressos (Inteira, Meia, Descontos) e aplicar valores em promoção.
+RF09 - Venda de Bombonière e Combos: O sistema deve permitir adicionar produtos da bombonière (pipocas, bebidas, doces e combos) ao pedido.
+RF10 - Processar Pagamento: O sistema deve calcular o valor total (ingressos + bombonière ou taxa digital) e simular a finalização do pagamento.
+Módulo 4: Usuário e Suporte
+RF11 - Gestão de Usuário: O sistema deve permitir o cadastro, login e consulta ao perfil do usuário.
+RF12 - Botão de Retorno Rápido: O sistema deve disponibilizar um elemento visual fixo à esquerda (fita/disco de filme) para o usuário navegar diretamente à tela inicial.
+RF13 - Central de Informações: O sistema deve disponibilizar seções de FAQ (Perguntas Frequentes), Institucional, Serviços prestados, Regras do cinema e links para Redes Sociais.
